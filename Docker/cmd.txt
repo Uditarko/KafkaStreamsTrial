@@ -1,0 +1,27 @@
+kafka-topics.sh -zookeeper localhost:2181 --create --topic transactions3 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic patterns3 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic rewards3 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic ccmasked3 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic coffee3 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic electronics3 --replication-factor 1 --partitions 1
+
+
+
+
+
+kafka-topics.sh -zookeeper localhost:2181 --create --topic transactions5 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic patterns5 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic rewards5 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic ccmasked5 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic coffee5 --replication-factor 1 --partitions 1
+kafka-topics.sh -zookeeper localhost:2181 --create --topic electronics5 --replication-factor 1 --partitions 1
+
+
+
+kafka-topics.sh -zookeeper localhost:2181 --create --topic companies --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic clients --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic financial-news --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic pops-hops-purchases --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic stock-transactions --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic stock-ticker-table --replication-factor 1 --partitions 2
+kafka-topics.sh -zookeeper localhost:2181 --create --topic stock-ticker-stream --replication-factor 1 --partitions 2
